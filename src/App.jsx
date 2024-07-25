@@ -6,7 +6,7 @@ function App() {
 
   const [num1,setNum1] = useState('')
   const [num2,setNum2] = useState('')
-  const [sumValue,setSumValue] =useState('')
+  const [sumValue,setSumValue] =useState(0)
   return (
     <>
       <h1>Sum</h1>
